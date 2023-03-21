@@ -1,3 +1,4 @@
+'''
 %CONDICIONES DEL SISTEMA
 T = 150
 P = 101.3
@@ -6,7 +7,7 @@ r = 8.314
 
 %PROPIEDADES AGUA
 href = -286031.3
-sref = 69.95
+sref = 69.95 %J/molK
 Teb = 373.15
 hfg = 40653
 cpl = 75.362
@@ -22,20 +23,21 @@ sref = 130.59
 Teb = 
 hfg = 
 cpl = 
-    %Constantes
-    a2 = 
-    b2 = 
-    c2 = 
-cpg2 = a2 + b2*T + c2*T^2
+    %Constantes T = K
+    a2 = 29.11
+    b2 = -0.1916E-2
+    c2 = 0.4E-5
+cpg2 = a2 + b2*T + c2*T^2 %kJ/kmolK
 
 %PROPIEDADES OXÍGENO
 href = 0
 sref = 205.14
-Teb = 
+Teb = 90.2 %K
 hfg = 
 cpl = 
-    %Constantes
-    a3 = 
-    b3 = 
-    c3 = 
-cpg3 = a3 + b3*T + c3*T^2
+    %Constantes T = K
+    a3 = 25.48
+    b3 = 1.520E-2
+    c3 = -0.7155E-5
+cpg3 = a3 + b3*T + c3*T^2 %kJ/kmolK
+'''
